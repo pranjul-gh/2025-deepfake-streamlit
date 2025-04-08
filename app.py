@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 # Route for the landing page
 @app.route("/")
+
 def home():
     return render_template("index.html")
 
